@@ -1,6 +1,12 @@
 # learnopengl.com code repository
 Contains code samples for all chapters of Learn OpenGL and [https://learnopengl.com](https://learnopengl.com). 
 
+## Qt building
+直接用 qt 打开 CMakeLists.txt，使用 msvc 编译器直接运行。执行过程中若找不到dll，拖入指定目录即可。  
+
+## Visual Studio  
+路径问题未解决  
+
 ## Windows building
 All relevant libraries are found in /libs and all DLLs found in /dlls (pre-)compiled for Windows. 
 The CMake script knows where to find the libraries so just run CMake script and generate project of choice.
